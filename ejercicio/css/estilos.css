@@ -1,12 +1,23 @@
+#grad1 {
+  height: 100%;
+  width: 100%;
+  background-color: red; 
+  background-image: linear-gradient(to bottom right, red, yellow); 
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 form{
 margin: auto;
 max-width: 1000px;
 background-color: #EFE53E;
 padding: 30px;
-margin-top: 25px;
-box-shadow: 0px 0px 5px grey;
+margin-top: 0;
 border-radius: 8px;
 box-sizing: border-box;
+-webkit-box-shadow: 15px 18px 28px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 18px 28px 6px rgba(0,0,0,0.75);
+box-shadow: 15px 18px 28px 6px rgba(0,0,0,0.75);
 }
 
 .h2cont{
@@ -14,10 +25,6 @@ text-align: center;
 margin-bottom: 15px;
 }
 
-.Pcont{
-text-align: justify;
-margin-bottom: 20px;
-}
 
 input, textarea{
 font-size: 18px;
